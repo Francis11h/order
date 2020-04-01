@@ -57,7 +57,15 @@ OrderDTO create(OrderDTO orderDTO)
 
 
 
+## converter 
 
+引入 google 工具 Gson
+![](https://github.com/Francis11h/order/blob/master/src/image/9.png)
+
+OrderDTO orderDTO = OrderForm2orderDTOConverter.convert(orderForm);
+![](https://github.com/Francis11h/order/blob/master/src/image/10.png)
+
+![](https://github.com/Francis11h/order/blob/master/src/image/11.png)
 
 
 

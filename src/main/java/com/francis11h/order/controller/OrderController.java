@@ -1,6 +1,8 @@
 package com.francis11h.order.controller;
 
 
+import com.francis11h.order.converter.OrderForm2orderDTOConverter;
+import com.francis11h.order.dto.OrderDTO;
 import com.francis11h.order.enums.ResultEnum;
 import com.francis11h.order.exception.OrderException;
 import com.francis11h.order.form.OrderForm;
@@ -36,6 +38,7 @@ public class OrderController {
                     bindingResult.getFieldError().getDefaultMessage());
         }
         // orderForm --> orderDTO
+        OrderDTO orderDTO = OrderForm2orderDTOConverter.convert(orderForm);
     }
 
 }
