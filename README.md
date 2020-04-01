@@ -37,6 +37,27 @@ OrderDTO create(OrderDTO orderDTO)
 ![](https://github.com/Francis11h/order/blob/master/src/image/4.png)
 
 
+## form 包
+
+前段传来的 表单 用一个类来接收下 '
+
+***@NotEmpty(message = "购物车不能为空")*** 不能为空
+![](https://github.com/Francis11h/order/blob/master/src/image/6.png)
+
+
+## 自定义异常
+
+![](https://github.com/Francis11h/order/blob/master/src/image/7.png)
+
+
+## 表单验证
+@Valid OrderForm orderForm,
+                       BindingResult bindingResult 这个存结果
+![](https://github.com/Francis11h/order/blob/master/src/image/8.png)
+
+
+
+
 
 
 
