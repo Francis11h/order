@@ -72,3 +72,8 @@ OrderDTO orderDTO = OrderForm2orderDTOConverter.convert(orderForm);
 
 
 ![](https://github.com/Francis11h/order/blob/master/src/image/12.png)
+
+
+## postman  测试 
+
+![](https://github.com/Francis11h/order/blob/master/src/image/13.png)
