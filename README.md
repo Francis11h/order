@@ -25,6 +25,17 @@ OrderDTO create(OrderDTO orderDTO)
 ![](https://github.com/Francis11h/order/blob/master/src/image/3.png)
 
 
+## service
+![](https://github.com/Francis11h/order/blob/master/src/image/5.png)
+
+
+## 生成随机ID
+
+随机数 + 当前时间 System.currentTimeMillis() 
+同时 synchronized 防止同时访问
+
+![](https://github.com/Francis11h/order/blob/master/src/image/4.png)
+
 
 
 

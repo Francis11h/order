@@ -47,6 +47,4 @@ public class OrderDTO {
      *
      */
     List<OrderDetail> orderDetailList;
-
-
 }
